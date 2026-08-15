@@ -81,3 +81,45 @@ approximately **402.3 mm**.
 
 
 <img width="753" height="396" alt="image" src="https://github.com/user-attachments/assets/a27cde55-a959-4808-b8cb-59e01732ad8a" />
+
+
+---
+
+## Data and Datasets
+
+The study integrated topographic, land-cover, soil, meteorological, hydrological and climate-model datasets to develop and evaluate the hydrological modelling and climate-impact assessment framework.
+
+### Summary of datasets
+
+| Dataset | Variable / Purpose | Spatial / Temporal Resolution | Role in the Study |
+|---|---|---|---|
+| SRTM DEM | Elevation and terrain characteristics | 30 m | Catchment delineation and SWAT+ terrain preprocessing |
+| Land-cover data | Land-use/land-cover classification | 10 m | SWAT+ land-cover parameterisation |
+| Soil data | Soil properties | 250 m | SWAT+ soil parameterisation |
+| Meteorological observations | Precipitation and temperature | Daily | Historical model forcing and analysis |
+| Streamflow observations | River discharge | Daily | Model calibration, validation and evaluation |
+| CMIP6 climate projections | Future climate variables | Model-dependent | Climate-change projections |
+| MPI-ESM1-2-LR | Climate model | Model-dependent | Future climate forcing |
+| SSP2-4.5 | Future emissions scenario | — | Intermediate climate-change scenario |
+| SSP5-8.5 | Future emissions scenario | — | High-emissions climate-change scenario |
+
+### Historical Hydro-Climatic Data
+
+Historical precipitation and temperature data were used to characterise hydro-climatic variability and provide meteorological forcing for the hydrological modelling framework.
+
+Observed daily streamflow data were used to evaluate the ability of the modelling approaches to reproduce historical streamflow dynamics.
+
+### Climate Projection Data
+
+Future climate conditions were assessed using CMIP6 climate projections under the **SSP2-4.5** and **SSP5-8.5** scenarios.
+
+The climate projections were processed and bias-corrected before being used as inputs for future streamflow assessment.
+
+The **MPI-ESM1-2-LR** climate model was used in the climate-impact assessment, providing future climate information for the selected scenarios.
+
+
+
+
+
+
+
