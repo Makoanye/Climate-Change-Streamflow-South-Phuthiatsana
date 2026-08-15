@@ -78,3 +78,6 @@ approximately **402.3 mm**.
 | Mean annual precipitation | ~690.7 mm |
 | Mean annual evapotranspiration | ~402.3 mm |
 | Dominant land cover | Grassland, cropland and trees |
+
+
+<img width="753" height="396" alt="image" src="https://github.com/user-attachments/assets/a27cde55-a959-4808-b8cb-59e01732ad8a" />
