@@ -118,6 +118,69 @@ The climate projections were processed and bias-corrected before being used as i
 The **MPI-ESM1-2-LR** climate model was used in the climate-impact assessment, providing future climate information for the selected scenarios.
 
 
+---
+
+## Methodology
+
+The study adopted a hybrid modelling framework combining a process-based
+hydrological model with a data-driven machine-learning approach to assess
+climate-change impacts on streamflow and hydrological extremes.
+
+The overall workflow consisted of:
+
+1. Historical hydro-climatic data preparation and analysis.
+2. Catchment delineation and hydrological model setup.
+3. SWAT+ model calibration and evaluation.
+4. XGBoost model development and evaluation.
+5. Climate-model selection and bias correction.
+6. Future climate projection under SSP2-4.5 and SSP5-8.5.
+7. Future streamflow prediction.
+8. Analysis of changes in hydrological extremes.
+
+### Modelling Framework
+
+```text
+Historical Climate Data + Observed Streamflow
+                    │
+                    ▼
+          Data Preparation & Analysis
+                    │
+                    ▼
+             ┌───────────────┐
+             │     SWAT+     │
+             │ Process-based │
+             │    model      │
+             └───────┬───────┘
+                     │
+                     ▼
+              Model Evaluation
+                     │
+             ┌───────┴───────┐
+             │               │
+             ▼               ▼
+        SWAT+ Results    XGBoost Model
+                             │
+                             ▼
+                    Model Evaluation
+                             │
+                             ▼
+                  Best-performing approach
+                             │
+                             ▼
+              Bias-corrected CMIP6 Climate Data
+                             │
+                  ┌──────────┴──────────┐
+                  ▼                     ▼
+              SSP2-4.5              SSP5-8.5
+                  │                     │
+                  └──────────┬──────────┘
+                             ▼
+                   Future Streamflow
+                             │
+                             ▼
+                 Hydrological Extremes
+
+
 
 
 
