@@ -38,3 +38,43 @@ The study aimed to:
 5. Simulate future streamflow using bias-corrected climate projections.
 
 6. Assess potential changes in high-flow and low-flow characteristics and other hydrological extremes under future climate conditions.
+
+
+---
+
+## Study Area
+
+### South Phuthiatsana Catchment, Lesotho
+
+The study was conducted in the South Phuthiatsana Catchment in Lesotho. The
+catchment was delineated to the **Masianokeng gauging station** and covers
+approximately **651.7 km²**.
+
+The catchment extends between approximately **29°12′50″ and 29°37′50″ S**
+latitude and **27°25′5″ and 28°2′5″ E** longitude, with elevations ranging
+from approximately **1,560 to 3,010 m above sea level**.
+
+The South Phuthiatsana River is a perennial river originating in the
+highlands of the Berea District. It flows through parts of Maseru before
+joining the **Mohokare (Caledon) River**, which forms part of the
+**Orange-Senqu River Basin**.
+
+The catchment is characterised by a mixture of grassland, cropland and
+tree-covered areas. The study area has an average annual precipitation of
+approximately **690.7 mm** and average annual evapotranspiration of
+approximately **402.3 mm**.
+
+### Catchment Characteristics
+
+| Characteristic | Description |
+|---|---|
+| Location | Lesotho |
+| Catchment area | ~651.7 km² |
+| Outlet | Masianokeng gauging station |
+| Elevation range | ~1,560–3,010 m a.s.l. |
+| River | South Phuthiatsana |
+| Receiving river | Mohokare (Caledon) River |
+| River basin | Orange-Senqu River Basin |
+| Mean annual precipitation | ~690.7 mm |
+| Mean annual evapotranspiration | ~402.3 mm |
+| Dominant land cover | Grassland, cropland and trees |
